@@ -24,7 +24,7 @@ class Cuenta:
             self.balance += amount
             print(f"se depositaron ${amount}. Su nuevo saldo es ${self.balance}")
         else :
-            prit(f"El monto deve ser mayor a 0")
+            print(f"El monto deve ser mayor a 0")
 
     def getBalance(self): 
        print(self.balance)
